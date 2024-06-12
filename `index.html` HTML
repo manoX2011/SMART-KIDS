@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>أكاديمية SMART KIDS</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>أكاديمية SMART KIDS</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">الرئيسية</a></li>
+                <li><a href="#about">عن الأكاديمية</a></li>
+                <li><a href="#register">التسجيل</a></li>
+                <li><a href="#contact">تواصل معنا</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home">
+        <h2>مرحبًا بكم في أكاديمية SMART KIDS</h2>
+        <p>نحن نقدم أفضل التعليم للأطفال بطرق مبتكرة وممتعة.</p>
+    </section>
+
+    <section id="about">
+        <h2>عن الأكاديمية</h2>
+        <p>أكاديمية SMART KIDS تقدم برامج تعليمية شاملة للأطفال، تشمل العلوم، الرياضيات، الفنون، واللغات.</p>
+    </section>
+
+    <section id="register">
+        <h2>التسجيل</h2>
+        <form id="registrationForm">
+            <label for="name">اسم الطالب:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="parentName">اسم ولي الأمر:</label>
+            <input type="text" id="parentName" name="parentName" required>
+
+            <label for="email">البريد الإلكتروني:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="phone">رقم الهاتف:</label>
+            <input type="tel" id="phone" name="phone" required>
+
+            <button type="submit">التسجيل</button>
+        </form>
+        <div id="confirmationMessage"></div>
+    </section>
+
+    <section id="contact">
+        <h2>تواصل معنا</h2>
+        <p>لأي استفسارات، يمكنكم التواصل معنا عبر البريد الإلكتروني info@smartkids.com أو عبر الهاتف 123-456-7890.</p>
+    </section>
+
+    <footer>
+        <p>© 2024 أكاديمية SMART KIDS. جميع الحقوق محفوظة.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

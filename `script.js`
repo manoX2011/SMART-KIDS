@@ -1,0 +1,13 @@
+document.getElementById('registrationForm').addEventListener('submit', function(event) {
+    event.preventDefault();
+
+    var name = document.getElementById('name').value;
+    var parentName = document.getElementById('parentName').value;
+    var email = document.getElementById('email').value;
+    var phone = document.getElementById('phone').value;
+
+    var confirmationMessage = document.getElementById('confirmationMessage');
+    confirmationMessage.innerHTML = `<p>شكرًا للتسجيل، ${parentName}! سيتم التواصل معك عبر البريد الإلكتروني ${email} أو رقم الهاتف ${phone}.</p>`;
+
+    document.getElementById('registrationForm').reset();
+});
